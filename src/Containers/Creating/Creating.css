@@ -1,0 +1,19 @@
+.creatingContainer {
+    margin-top: 200px !important;
+}
+.creatingButton {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.creatingButton Button {
+    padding: 11px 26px; 
+    border-radius: 25px;
+    margin:10px;
+}
+.creatingButtonTwo Button {
+    padding: 11px 26px; 
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+}

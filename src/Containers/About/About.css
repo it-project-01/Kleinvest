@@ -1,0 +1,10 @@
+.aboutSection {
+    margin-top: 200px;
+}
+
+.aboutContent {
+    display: flex !important; 
+    justify-content: center !important;
+    margin-top: 80px !important;
+    margin-left: 100px;
+}   

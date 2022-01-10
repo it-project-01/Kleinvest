@@ -11,7 +11,7 @@ export default class WhatClientsSay extends Component {
   }
   render() {
     return (
-      <div className="h-100 bg-white clientCard">
+      <div className="h-100 bg-white clientCard mt-5">
         <div className="row m-0 p-0">
           <div className="col-sm-4 p-0">
             <img src={this.state.value.image} alt="" />

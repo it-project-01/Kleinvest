@@ -1,0 +1,9 @@
+.player-wrapper {
+  position: relative;
+  }
+  
+.react-player {
+    top: 0;
+    left: 0;
+    width: 400px !important;
+  }

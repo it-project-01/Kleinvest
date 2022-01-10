@@ -1,0 +1,21 @@
+.logoText {
+    margin-left: 100px;
+    display: block !important;
+    overflow: hidden;
+}
+.smallContent {
+    display: flex !important;
+}
+.iconText {
+  align-items: center;
+}
+.iconTextBold {
+    display: flex;
+    align-items: center;
+}
+.iconTextBold h5{
+    margin-left: 15px;
+}
+.iconText p{
+    margin-left: 40px;
+}

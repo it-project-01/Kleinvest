@@ -4,6 +4,7 @@ import Header from "./Containers/Header";
 import Creating from "./Containers/Creating";
 import Strategy from "./Containers/Strategy";
 import Clients from "./Containers/Clients";
+import About from "./Containers/About/About";
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
             <Creating />
             <Strategy />
             <Clients />
+            <About />
           </div>
         </div>
       </div>

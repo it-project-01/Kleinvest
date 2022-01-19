@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./SmallContainer.css";
-import logo from "../../vector.svg";
+import logo from "../../images/vector.svg";
 
 export default class SmallContainer extends Component {
   constructor(props) {
     super(props);
-    this.state = props;
+    this.state = { ...props };
   }
 
   render() {

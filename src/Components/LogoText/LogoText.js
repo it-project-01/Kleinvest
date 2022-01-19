@@ -1,12 +1,12 @@
 import "./LogoText.css";
 import React, { Component } from "react";
-import firstLogo from "../../firstLogo.png";
-import secondLogo from "../../secondLogo.png";
+import firstLogo from "../../images/firstLogo.png";
+import secondLogo from "../../images/secondLogo.png";
 
 export default class LogoText extends Component {
   constructor(props) {
     super(props);
-    this.state = props;
+    this.state = { ...props };
   }
   render() {
     return (

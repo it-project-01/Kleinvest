@@ -1,0 +1,14 @@
+.touchCardContent {
+    text-align: center;
+    padding: 60px 30px;
+}
+.icon {
+    margin-bottom: 20px;
+} 
+.text a{
+    text-decoration: none;
+}
+.button Button {
+    border-radius: 22px;
+    padding: 10px 25px;
+}

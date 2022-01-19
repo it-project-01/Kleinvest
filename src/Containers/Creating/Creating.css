@@ -17,3 +17,6 @@
     border: 2px solid white;
     color: white;
 }
+.creatingButtonTwo Button:hover {
+    color: #23A6F0;
+}

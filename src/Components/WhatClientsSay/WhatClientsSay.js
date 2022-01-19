@@ -7,13 +7,13 @@ import { faStar as farStar } from "@fortawesome/free-regular-svg-icons";
 export default class WhatClientsSay extends Component {
   constructor(props) {
     super(props);
-    this.state = props;
+    this.state = { ...props };
   }
   render() {
     return (
-      <div className="h-100 bg-white clientCard mt-5">
-        <div className="row m-0 p-0">
-          <div className="col-sm-4 p-0">
+      <div className="bg-white clientCard mt-5">
+        <div className="d-flex">
+          <div className="col-4 p-0 me-2">
             <img src={this.state.value.image} alt="" />
           </div>
           <div className="col-sm-8 text-dark py-3">

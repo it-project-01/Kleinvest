@@ -1,0 +1,30 @@
+.pricingCard {
+  background-color: white;
+  border-radius: 5px;
+  padding: 50px;
+}
+.pricingCardText {
+  text-align: center;
+}
+.list .checked{
+  list-style-image: url(../../images/checked.png);
+}
+.list li{
+    margin-bottom: 8px;
+    align-items: center;
+  }
+.list .notChecked{
+  list-style-image: url(../../images/notChecked.png);
+}
+
+
+.buttonDiv Button { 
+  width: 100% !important;
+  background-color: #23A6F0; 
+  border: 1px solid #23A6F0;
+}
+.buttonDiv {
+  color: white;
+  width: 100% !important;
+  margin-bottom: 50px;
+}
